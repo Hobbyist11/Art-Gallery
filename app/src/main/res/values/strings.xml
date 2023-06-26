@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="artwork_name1">The Dog</string>
+    <string name="artwork_name2">The draw</string>
+    <string name="artwork_name3">The face</string>
+    <string name="art1_desc">Photo of Dog</string>
+    <string name="art2_desc">Photo of face distorted.</string>
+    <string name="art3_desc">Photo of face</string>
+    <string name="artwork_artist">John</string>
+</resources>
