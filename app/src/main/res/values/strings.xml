@@ -6,5 +6,7 @@
     <string name="art1_desc">Photo of Dog</string>
     <string name="art2_desc">Photo of face distorted.</string>
     <string name="art3_desc">Photo of face</string>
-    <string name="artwork_artist">John</string>
+    <string name="artwork_artist1">John (2020)</string>
+    <string name="artwork_artist2">John (2021)</string>
+    <string name="artwork_artist3">John (2022)</string>
 </resources>
