@@ -129,7 +129,7 @@ fun ArtSpaceTextAndImage(
                 painter = painterResource(id = drawableResourceId),
                 contentDescription = stringResource(id = contentDescriptionResourceId),
                 modifier = Modifier
-                    .padding(30.dp)
+                    .padding(30.dp,top = 40.dp,end = 30.dp)
                     .size(350.dp)
                     .wrapContentSize()
             )
@@ -140,7 +140,7 @@ fun ArtSpaceTextAndImage(
         Card(
             shape = RectangleShape,
             modifier = Modifier
-                .padding(10.dp)
+                .padding(start = 20.dp, end = 20.dp)
                 .fillMaxWidth()
 
 
@@ -149,15 +149,16 @@ fun ArtSpaceTextAndImage(
                 text = stringResource(id = ArtworkTitleResourceId),
                 style = MaterialTheme.typography.headlineMedium,
                 fontWeight = FontWeight.W400,
-            modifier = Modifier.padding(top = 10.dp, start = 7.dp)
+            modifier = Modifier.padding(top = 30.dp, start = 10.dp)
             )
             Text(
                 text = stringResource(id = ArtworkArtistResourceId),
-                fontSize = 10.sp,
+                fontSize = 15.sp,
                 fontWeight = FontWeight.ExtraBold,
-            modifier = Modifier.padding(10.dp)
+            modifier = Modifier.padding(top = 5.dp, bottom = 20.dp, start = 10.dp)
             )
         }
+        Spacer(modifier = Modifier.height(40.dp))
 
         Row(verticalAlignment = Alignment.Bottom) {
             // Previous button
